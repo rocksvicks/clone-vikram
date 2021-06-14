@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Form To Google Sheets Demo</title>
+  <meta name="description" content="Form To Google">
+  <link href="./favicon.png" rel="shortcut icon">
+
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div class="form-container" >
+    <form name="submit-to-google-sheet-Notify" >
+      <input type="email" name="email" required="" placeholder="name@example.com">
+      <input type="name" name="name" placeholder="Enter Name">
+      <button type="submit">Subscribe</button>
+    </form>
+
+    <div class="loading js-loading is-hidden"   >
+      <div class="loading-spinner">
+        <svg><circle cx="25" cy="25" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/></svg>
+      </div>
+    </div>
+
+    <p class="js-success-message is-hidden">Thanks! Send Notify Is soon...</p>
+    <p class="js-error-message is-hidden">Error!</p>
+    <br>
+  </div>
+  <a href="/GitHub/GitHub/Try-Clone-Vikram-main/index.html" >Go Back</a>
+<!-- Notify Form  To Sheet -->
+<script src="./scripts.js"> </script>
+
+
+</body>
+</html>

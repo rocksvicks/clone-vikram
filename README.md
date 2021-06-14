@@ -1,2 +1,2 @@
-# clone-vikram
-try vikram clone portlilo
+# Try-Clone-Vikram
+Clone target https://github.com/GuruVikram02/My-Portfolio.git
